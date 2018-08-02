@@ -16,7 +16,7 @@
 title: Blog do CoelhoDev | Lucas Teles Rosa
 email: lucas_telles25@hotmail.com
 description: "Um blog sobre web dev things e para compartilhar um pouco da minha experiencia com desenvolvimento."
-baseurl: "/blog"
+baseurl: ""
 url: "https://lucastelesx.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: lucastellesx
 github_username:  jekyll
