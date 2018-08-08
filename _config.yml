@@ -13,6 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+encoding: utf-8
 title: Blog do CoelhoDev | Lucas Teles Rosa
 email: lucas_telles25@hotmail.com
 description: "Um blog sobre web dev things e para compartilhar um pouco da minha experiencia com desenvolvimento."
@@ -20,6 +21,12 @@ baseurl: ""
 url: "https://lucastelesx.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: lucastellesx
 github_username:  lucastelesx
+permalink: /:title
+
+# nav links
+header_pages:
+  - about.md
+  - portfolio.md
 
 # Build settings
 markdown: kramdown
