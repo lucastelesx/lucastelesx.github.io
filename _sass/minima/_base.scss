@@ -1,6 +1,7 @@
 /**
  * Reset some basic elements
  */
+
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -14,6 +15,8 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
+  background-color: #3d3d3d;
+  background-image: var(--bg-principal-image);
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
   background-color: $background-color;
@@ -102,8 +105,11 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Links
  */
+//TODO: Review Brand-color variable and remove rewrite.
+
 a {
   color: $brand-color;
+  color: var(--link);
   text-decoration: none;
 
   &:visited {
