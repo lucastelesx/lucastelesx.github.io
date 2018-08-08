@@ -17,8 +17,8 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
-  &, &.footer-heading{ color: var(--title-site); }
   &, &:visited { color: $grey-color-dark; }
+  &, &.footer-heading{ color: var(--title-site); }
 }
 
 .site-nav {
