@@ -1,7 +1,15 @@
 /**
  * Reset some basic elements
  */
-
+ :root{
+  --bg-principal-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' he…ill='%23c56cf0' points='0 63.2 63.2 0 27.8 0 0 27.8'/%3E%3C/g%3E%3C/svg%3E");
+  --bg-principal-dark:  rgba(61, 61, 61, 0.9);
+  --bg-principal-light: rgba(61, 61, 61, 0.2);
+  --link: #32FF7E;
+  --title-site: #ff9f1a;
+  --heading-secundary: #c56cf0;
+  --color-primary: #3d3d3d;
+}
 
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
@@ -15,16 +23,6 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
- :root{
-  --bg-principal-image: url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' he…ill='%23c56cf0' points='0 63.2 63.2 0 27.8 0 0 27.8'/%3E%3C/g%3E%3C/svg%3E);
-  --bg-principal-dark:  rgba(61, 61, 61, 0.9);
-  --bg-principal-light: rgba(61, 61, 61, 0.2);
-  --link: #32FF7E;
-  --title-site: #ff9f1a;
-  --heading-secundary: #c56cf0;
-  --color-primary: #3d3d3d;
-}
-
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
