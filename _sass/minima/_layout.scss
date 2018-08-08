@@ -18,7 +18,10 @@
   margin-bottom: 0;
   float: left;
   &, &:visited { color: $grey-color-dark; }
-  &, &.footer-heading{ color: var(--title-site) !important; }
+  &, &.footer-heading{
+    font-weight: 800;
+    color: var(--title-site) !important; 
+  }
 }
 
 .site-nav {
