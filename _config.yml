@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 encoding: utf-8
-title: Blog do CoelhoDev | Lucas Teles Rosa
+title: Blog do CoelhoDev
 email: lucas_telles25@hotmail.com
 description: "Um blog sobre web dev things e para compartilhar um pouco da minha experiencia com desenvolvimento."
 baseurl: ""
